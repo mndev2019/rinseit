@@ -43,7 +43,7 @@ const Information = () => {
                                         <p className='font-[400] text-[#F4F4F4] text-[20px]'>+9862233335</p>
                                     </div>
                                 </div>
-                                <div className="w-full flex gap-3 py-2">
+                                <div className="w-full flex gap-3 py-3">
                                     <div className="icon">
                                         <img src={infomail} alt='image' />
                                     </div>
@@ -51,7 +51,7 @@ const Information = () => {
                                         <p className='font-[400] text-[#F4F4F4] text-[20px]'>example@gmail.com</p>
                                     </div>
                                 </div>
-                                <div className="w-full flex gap-3 py-2">
+                                <div className="w-full flex gap-3 py-3">
                                     <div className="icon">
                                         <img src={infolocation} alt='image' />
                                     </div>
@@ -59,10 +59,10 @@ const Information = () => {
                                         <p className='font-[400] text-[#F4F4F4] text-[20px]'>102/B New Market, Chico City, Sandigo, USA.</p>
                                     </div>
                                 </div>
-                                <div className="w-full py-2 rounded-[10px]">
+                                <div className="w-full py-3 rounded-[10px]">
                                     <img src={map} alt='image' className='w-full' />
                                 </div>
-                                <div className="w-full py-2 gap-2 flex">
+                                <div className="w-full py-2 gap-3 flex">
                                     <img src={twitterfill} alt='image' />
                                     <img src={facebookfill} alt='image' />
                                     <img src={instafill} alt='image' />
@@ -125,8 +125,8 @@ const Information = () => {
                                             ></textarea>
                                         </div>
                                     </div>
-                                    <div className='lg:mb-3 mb-2 text-center'>
-                                        <button className='bg-primary text-[#FCFCFC] text-[25px] font-[700] rounded-[10px] px-10 py-1'>SEND</button>
+                                    <div className='lg:mb-3 mb-2 mt-5 text-center'>
+                                        <button className='bg-primary text-[#FCFCFC] text-[25px] font-[700] rounded-[10px] px-[100px] py-[14px]'>SEND</button>
                                     </div>
                                 </form>
                             </div>
