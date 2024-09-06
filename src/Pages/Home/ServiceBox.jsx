@@ -50,15 +50,16 @@ const ServiceBox = () => {
 
                                 {/* Text with border */}
                                 <div className="absolute inset-0 flex flex-col justify-end z-10 p-6">
-                                    <h1 className="text-white text-[25px] font-[700]">
+                                    <h1 className="text-white text-[25px] font-[700] w-max">
                                         {itm.text}
+                                    <span className="block w-[42px] border-b-2 border-secondary  mt-2 transition-all duration-300 ease-in-out group-hover:w-full"></span>
+
                                     </h1>
-                                    <span className=" w-[42px] border-b-2 border-secondary inline-block mt-2 transition-all duration-300 ease-in-out group-hover:w-full"></span>
                                     <p className='text-[12px] font-[400] text-[#F4F4F4] py-2'>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
                                     </p>
                                     <a href='' className='flex items-center text-[10px] font-[400] text-[#F4F4F4] pb-2 group relative'>
-                                        <span className="w-[42px] border-b-2 border-secondary inline-block mr-2 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:w-[20%]"></span>
+                                        <span className=" border-b-2 border-secondary inline-block mr-2 transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:w-[20%]"></span>
                                         Read More
                                     </a>
                                 </div>
