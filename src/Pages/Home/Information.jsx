@@ -74,7 +74,7 @@ const Information = () => {
                             <div className="w-full">
                                 <form>
                                     <div className="lg:mb-5 mb-2">
-                                        <label htmlFor="name" className="block font-medium mb-1">
+                                        <label htmlFor="name" className="block font-[700] text-[20px] mb-1">
                                             Name
                                         </label>
                                         <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
@@ -93,7 +93,7 @@ const Information = () => {
                                         </div>
                                     </div>
                                     <div className="lg:mb-5 mb-2">
-                                        <label htmlFor="email" className="block font-medium mb-1">
+                                        <label htmlFor="email" className="block font-[700] text-[20px] mb-1">
                                             Email
                                         </label>
                                         <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
@@ -112,7 +112,7 @@ const Information = () => {
                                         </div>
                                     </div>
                                     <div className="lg:mb-5 mb-2">
-                                        <label htmlFor="message" className="block font-medium mb-1">
+                                        <label htmlFor="message" className="block font-[700] text-[20px] mb-1">
                                             Message
                                         </label>
                                         <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
