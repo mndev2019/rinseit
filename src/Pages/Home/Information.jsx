@@ -96,14 +96,14 @@ const Information = () => {
                                         <label htmlFor="email" className="block font-medium mb-1">
                                             Email
                                         </label>
-                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-2 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
                                             <div className="field w-full">
                                                 <input
                                                     type="text"
                                                     id="email"
                                                     name="email"
                                                     placeholder="Enter your Email"
-                                                    className="mt-1 text-[20px] font-[400] block w-full rounded-md  focus:outline-none"
+                                                    className="mt-1 text-[18px] font-[400] block w-full rounded-md  focus:outline-none"
                                                 />
                                             </div>
                                             <div className="icon">
@@ -115,13 +115,13 @@ const Information = () => {
                                         <label htmlFor="message" className="block font-medium mb-1">
                                             Message
                                         </label>
-                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-2 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
                                             <textarea
                                                 id="message"
                                                 name="message"
                                                 rows="5" // Adjust rows as needed
                                                 placeholder="Write your message"
-                                                className="mt-1 text-[20px] font-[400] block w-full rounded-md focus:outline-none resize-none"
+                                                className="mt-1 text-[18px] font-[400] block w-full rounded-md focus:outline-none resize-none"
                                             ></textarea>
                                         </div>
                                     </div>
