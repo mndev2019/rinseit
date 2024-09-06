@@ -62,7 +62,7 @@ const Information = () => {
                                 <div className="w-full py-3 rounded-[10px]">
                                     <img src={map} alt='image' className='w-full' />
                                 </div>
-                                <div className="w-full py-2 gap-3 flex">
+                                <div className="w-full pt-4 pb-2 gap-3 flex">
                                     <img src={twitterfill} alt='image' />
                                     <img src={facebookfill} alt='image' />
                                     <img src={instafill} alt='image' />
