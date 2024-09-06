@@ -73,7 +73,7 @@ const Information = () => {
                         <div className="col-span-1">
                             <div className="w-full">
                                 <form>
-                                    <div className="lg:mb-3 mb-2">
+                                    <div className="lg:mb-5 mb-2">
                                         <label htmlFor="name" className="block font-medium mb-1">
                                             Name
                                         </label>
@@ -92,7 +92,7 @@ const Information = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="lg:mb-3 mb-2">
+                                    <div className="lg:mb-5 mb-2">
                                         <label htmlFor="email" className="block font-medium mb-1">
                                             Email
                                         </label>
@@ -111,7 +111,7 @@ const Information = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="lg:mb-3 mb-2">
+                                    <div className="lg:mb-5 mb-2">
                                         <label htmlFor="message" className="block font-medium mb-1">
                                             Message
                                         </label>
@@ -125,7 +125,7 @@ const Information = () => {
                                             ></textarea>
                                         </div>
                                     </div>
-                                    <div className='lg:mb-3 mb-2 mt-5 text-center'>
+                                    <div className='lg:mb-3 mb-2 mt-10 text-center'>
                                         <button className='bg-primary text-[#FCFCFC] text-[25px] font-[700] rounded-[10px] px-[100px] py-[14px]'>SEND</button>
                                     </div>
                                 </form>
