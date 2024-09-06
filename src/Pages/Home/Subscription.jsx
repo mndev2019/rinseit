@@ -25,7 +25,7 @@ const Subscription = () => {
                     </div>
                     <div className="grid grid-cols-3 gap-20">
                         <div className="col-span-1">
-                            <div className="w-full bg-[#2c2c2c] rounded-[24px] py-10 px-5">
+                            <div className="w-full bg-[#262626] rounded-[24px] py-10 px-5">
                                 
 
                                 <div className="w-full">
@@ -86,7 +86,7 @@ const Subscription = () => {
                             </div>
                         </div>
                         <div className="col-span-1">
-                            <div className="w-full bg-[#2c2c2c] rounded-[24px] py-10 px-5">
+                            <div className="w-full bg-[#272121] rounded-[24px] py-10 px-5">
                                 <div className="w-full">
                                     <h1 className="text-[16px] font-[400] text-white playfair">
                                         INR39<span className="text-[#A5ADBB] text-[12px] font-[400]"> / month</span>
@@ -145,7 +145,7 @@ const Subscription = () => {
                             </div>
                         </div>
                         <div className="col-span-1">
-                            <div className="w-full bg-[#2c2c2c] rounded-[24px] py-10 px-5">
+                            <div className="w-full bg-[#402c2e] rounded-[24px] py-10 px-5">
                                 <div className="w-full">
                                     <h1 className="text-[16px] font-[400] text-white playfair">
                                         INR39<span className="text-[#A5ADBB] text-[12px] font-[400]"> / month</span>
