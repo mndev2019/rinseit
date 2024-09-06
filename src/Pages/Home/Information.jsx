@@ -77,14 +77,14 @@ const Information = () => {
                                         <label htmlFor="name" className="block font-medium mb-1">
                                             Name
                                         </label>
-                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-2 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
+                                        <div className="input-group flex items-center w-full border border-[#8A8A8A] rounded-lg justify-between px-5 py-3 focus-within:border-primary focus-within:ring-1 focus-within:ring-primary">
                                             <div className="field w-full">
                                                 <input
                                                     type="text"
                                                     id="name"
                                                     name="name"
                                                     placeholder="Enter your first name"
-                                                    className="mt-1 block w-full text-[18px] font-[300] rounded-md bg-transparent focus:outline-none px-5"
+                                                    className="mt-1 block w-full text-[18px] font-[400] rounded-md bg-transparent focus:outline-none"
                                                 />
                                             </div>
                                             <div className="icon">
