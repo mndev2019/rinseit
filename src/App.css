@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+.playfair{
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+
+}
+
+.banner {
+  background: url('./assets/bannercarwashing.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.title{
+  font-size: 24px;
+  font-weight: 500;
+}
+.subtitle{
+  font-size: 40px;
+  font-weight: 700;
+}
+.actionbox {
+  background: url('./assets/actionbox.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.subscription{
+  background-image: url('./assets/subscription.png');
+  background-repeat: no-repeat;
+  background-position:bottom center;
+ 
+}
+/* features box */
+.sweep-to-bottom {
+  position: relative;
+  transform: translateZ(0);
+  transition: color 1000ms;
+}
+
+.sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FF914D;
+  color: white;
+  transform: scaleY(0);
+  transform-origin: 50% 0%;
+  transition: transform 300ms ease-out;
+}
+
+.sweep-to-bottom:hover:before {
+  transform: scaleY(1);
+}
+.sweep-to-bottom:hover h1,
+.sweep-to-bottom:hover p {
+  color: white;
+}
+.sweep-to-bottom {
+  position: relative;
+  overflow: hidden;
+}
+
+.sweep-to-bottom img {
+  transition: filter 300ms ease-out;
+}
+
+.sweep-to-bottom:hover img {
+  filter: brightness(0) invert(1);
+}
+/* blog box */
+.sweep2-to-bottom {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent; /* Default border color */
+  transition: color 1000ms, border-color 300ms ease-out; /* Transition for color and border color */
+}
+
+.sweep2-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0171B1;
+  color: white;
+  transform: scaleY(0);
+  transform-origin: 50% 0%;
+  transition: transform 300ms ease-out;
+}
+
+.sweep2-to-bottom:hover:before {
+  transform: scaleY(1);
+}
+
+.sweep2-to-bottom:hover h1,
+.sweep2-to-bottom:hover p {
+  color: white;
+}
+
+.sweep2-to-bottom:hover {
+  border-color: white; /* Change border color to white on hover */
+}
+
+/* Hover styles for the border top div */
+.sweep2-to-bottom:hover .border-top-white {
+  border-color: white; /* Change border color to white on hover */
+}
+
+.sweep2-to-bottom button {
+   /* Default button text color */
+  transition: color 300ms ease-out; /* Transition for button text color */
+}
+.sweep2-to-bottom img {
+  transition: filter 300ms ease-out;
+  filter: brightness(0) invert(1);
+}
+
+.sweep2-to-bottom:hover button {
+  color: white; /* Change button text color to white on hover */
+}
+.cleanwash .previous{
+  border: 1px solid #8A8A8A;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cleanwash .next{
+  background:#0171B1 ;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/*.testimonialbox{
+  bottom: -3px;
+    content: "";
+    height: 8px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    width: 8px;
+    background:#0171B1 ;
+    position: absolute;
+    transition: all .3s cubic-bezier(.68,-.55,.265,1.55);
+}*/
+.subscription{
+  
+}
+.testimonial .previous{
+  border: 1px solid #8A8A8A;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .next{
+  background:#0171B1 ;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer {
+  background: url('./assets/footerimage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
