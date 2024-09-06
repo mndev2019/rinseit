@@ -38,11 +38,11 @@ const ServiceBox = () => {
                 arr.map((itm) => (
                     <>
                         <div className="col-span-1 relative group">
-                            <div className="w-full h-full overflow-hidden relative transition-transform duration-800 ease-in-out transform group-hover:scale-105">
+                            <div className="w-full h-full overflow-hidden relative transition-transform duration-800 ease-in-out transform group-hover:scale-80">
                                 <img
                                     src={itm.image}
                                     alt="image"
-                                    className="w-full h-full object-cover transition-transform duration-800 ease-in-out group-hover:scale-110"
+                                    className="w-full h-full object-cover transition-transform duration-800 ease-in-out group-hover:scale-80"
                                 />
 
                                 {/* Black overlay */}
