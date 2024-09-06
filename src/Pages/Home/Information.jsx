@@ -84,7 +84,7 @@ const Information = () => {
                                                     id="name"
                                                     name="name"
                                                     placeholder="Enter your first name"
-                                                    className="mt-1 block w-full text-[20px] font-[400] rounded-md bg-transparent focus:outline-none"
+                                                    className="mt-1 block w-full text-[18px] font-[300] rounded-md bg-transparent focus:outline-none px-5"
                                                 />
                                             </div>
                                             <div className="icon">
