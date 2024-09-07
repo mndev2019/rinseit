@@ -13,11 +13,11 @@ import Testimonial from "./Testimonial"
 const Home = () => {
   return (
    <>
-    <Banner/>
+    <Banner title="The shine that lasts" subtitle="FOREVER." search={true} para={true} button=" BOOK NOW"/>
     <Services/>
     <Actionbox/>
     <Process/>
-    <Subscription/>
+    <Subscription title="OUR SUBSCRIPTION PLAN" subtitle="Choose a Subscription Plan"/>
     <Blog/>
     <Testimonial/>
     <Information/>

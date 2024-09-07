@@ -202,6 +202,32 @@ body {
   align-items: center;
 }
 
+/* Booking Page 8*/
+/* Exterior service plan 8*/
+
+.exteriorservice .previous{
+  border: 1px solid #8A8A8A;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.exteriorservice .next{
+  background:#0171B1 ;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .footer {
   background: url('./assets/footerimage.png');

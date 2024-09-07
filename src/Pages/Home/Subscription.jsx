@@ -1,24 +1,28 @@
+/* eslint-disable react/prop-types */
 //import React from 'react'
 //import cardimage from '../../assets/CardBackground.png'
 import graytik from '../../assets/tickgray.png'
 import bluetik from '../../assets/tickblue.png'
 import greentik from '../../assets/tickgreen.png'
 import yellowtik from '../../assets/tickyellow.png'
+import { useLocation } from 'react-router-dom'
 
 
-const Subscription = () => {
+const Subscription = (props) => {
+    const location = useLocation()
+    const home = location.pathname == '/'
     return (
         <>
-            <section className="bg-[#121212] h-[648px] subscription lg:px-[15rem]">
+            <section className={`${home ? "bg-[#121212] h-[648px] subscription lg:px-[15rem]":"bg-[#121212] flex flex-col justify-center items-center  h-[80vh] subscription lg:px-[15rem]"}`}>
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1">
                         <div className="col-span-1">
                             <div className="w-full text-center py-7">
                                 <h1 className="title text-secondary">
-                                    OUR SUBSCRIPTION PLAN
+                                     {props.title}
                                 </h1>
                                 <h1 className="subtitle text-white">
-                                    Choose a Subscription Plan
+                                   {props.subtitle}
                                 </h1>
                             </div>
                         </div>

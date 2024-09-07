@@ -8,12 +8,12 @@ const ThemeNavbar = () => {
     <>
       <ul className='flex lg:flex-row flex-col list-none gap-8 font-semibold items-center'>
         <li className='hover:text-secondary'>
-          <a href="">
+          <a href="/">
             HOME
           </a>
         </li>
         <li className='hover:text-secondary'>
-          <a href="">
+          <a href="/booking">
             BOOKING
           </a>
         </li>
