@@ -1,5 +1,5 @@
 //import React from 'react'
- import carwashing from '../../assets/carwashing.png'
+import carwashing from '../../assets/carwashing.png'
 import clean from '../../assets/clean.png'
 import equipement from '../../assets/equipement.png'
 import safety from '../../assets/service.png'

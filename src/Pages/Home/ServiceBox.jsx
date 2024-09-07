@@ -42,7 +42,7 @@ const ServiceBox = () => {
                                 <img
                                     src={itm.image}
                                     alt="image"
-                                    className="w-full h-full object-cover transition-transform duration-800 ease-in-out group-hover:scale-80"
+                                    className="w-full h-full object-cover transition-transform duration-800 ease-in-out group-hover:scale-110"
                                 />
 
                                 {/* Black overlay */}
@@ -52,7 +52,7 @@ const ServiceBox = () => {
                                 <div className="absolute inset-0 flex flex-col justify-end z-10 p-6">
                                     <h1 className="text-white text-[25px] font-[700] w-max">
                                         {itm.text}
-                                    <span className="block w-[42px] border-b-2 border-secondary  mt-2 transition-all duration-800 ease-in-out group-hover:w-full"></span>
+                                        <span className="block w-[42px] border-b-2 border-secondary  mt-2 transition-all duration-800 ease-in-out group-hover:w-full"></span>
 
                                     </h1>
                                     <p className='text-[12px] font-[400] text-[#F4F4F4] py-2'>
