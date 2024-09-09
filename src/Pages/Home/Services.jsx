@@ -106,7 +106,7 @@ const Services = () => {
                         <div className="col-span-1">
                             <div className="w-full relative">
                                 <img src={rectangle} alt='image' className='absolute right-[-9px] z-[-2] top-[-11px]' />
-                                <img src={serviceimage} alt='image' />
+                                <img src={serviceimage}  alt='image' />
                             </div>
                         </div>
                     </div>

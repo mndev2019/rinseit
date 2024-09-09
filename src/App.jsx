@@ -8,6 +8,7 @@ import AuthLayout from './AuthLayout'
 import Register from './AuthLayout/Register'
 import Login from './AuthLayout/Login'
 import Booking from './Pages/Booking'
+import Services from './Pages/Services/Services'
 
 
 function App() {
@@ -17,11 +18,13 @@ function App() {
         {/* Routes that use the WebLayout (with Header and Footer) */}
         <Route path='/' element={<WebLayout />}>
           <Route index element={<Home />} />
-          <Route path='/booking' element={<Booking/>}/>
+          <Route path='/booking' element={<Booking />} />
+          <Route path='/services' element={<Services />} />
+
         </Route>
 
         {/* Routes that use the AuthLayout (no Header and Footer) */}
-        <Route element={<AuthLayout/>}>
+        <Route element={<AuthLayout />}>
           <Route path='register' element={<Register />} />
           <Route path='login' element={<Login />} />
         </Route>
